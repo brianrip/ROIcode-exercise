@@ -46,11 +46,11 @@ describe('Converter', () => {
     it('should convert a sentence with all the possible conversions.', () => {
       const text = "I won a prize for how fast I ate a tin of sardines. " +
       "When they wasked who wanted to be at the forefront of the " +
-      "celebration. I replied, 'Me too!'" ;
+      "celebration. I replied, 'Me Too!'" ;
 
       expect(Converter.convert(text)).to.eq("I two a prize five how fast I " +
       "nine a eleven of sardines. When they wasked who wanted three be at the fivefront " +
-      "of the celebration. I replied, 'Me three!'");
+      "of the celebration. I replied, 'Me Three!'");
     });
 
     it('should convert segments of words', () => {
